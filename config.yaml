@@ -1,0 +1,15 @@
+---
+baseurl: http://likestravel.com
+languageCode: en-us
+title: Likes Travel
+MetaDataFormat: yaml
+
+permalinks:
+  blog: /:year/:month/:slug/
+
+Taxonomies:
+  tag: tags
+  category: categories
+  country: countries
+  city: cities
+  series: series

@@ -1,0 +1,12 @@
+{
+  "name": "likestravel.com",
+  "version": "0.0.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "compass-breakpoint": "~2.5.0"
+  }
+}

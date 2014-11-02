@@ -1,0 +1,28 @@
+.header {
+	background-color: $oceanGreen;
+	height: 250px;
+	position: relative;
+}
+
+@mixin center($columns, $context: $total-columns) {
+	width: $columns($columns, $context);
+	margin: 0 auto;
+}
+
+.logo {
+	// center vertical and horizontally
+    bottom: 0; left: 0; top: 0; right: 0;
+	margin: auto;
+	position: absolute;
+	width: 300px;
+	height: 100px;
+
+	color: #FFFFFF;
+	font-family: "museo-sans-rounded",sans-serif;
+	font-size: 3em;
+}
+
+.logo div {
+	font-style: italic;
+	font-size: .25em;
+}

@@ -1,0 +1,18 @@
+@import "susy";
+@import "colors";
+@import "normalize";
+@import "../../../../components/compass-breakpoint/stylesheets/breakpoint";
+
+/* Changing Susy default global settings */
+$susy: (
+	columns: 12, 
+	global-box-sizing: border-box 
+);
+
+@include border-box-sizing;
+
+@import 'modules/header',
+		'modules/content',
+		'modules/sidebar',
+		'modules/footer'
+;

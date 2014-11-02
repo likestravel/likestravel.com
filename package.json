@@ -1,0 +1,12 @@
+{
+  "name": "Likestravel.com",
+  "version": "0.0.1",
+  "devDependencies": {
+    "gulp": "^3.8.9",
+    "gulp-autoprefixer": "^1.0.1",
+    "gulp-clean": "^0.3.1",
+    "gulp-ruby-sass": "^0.7.1",
+    "normalize.css": "^3.0.2",
+    "run-sequence": "^1.0.1"
+  }
+}

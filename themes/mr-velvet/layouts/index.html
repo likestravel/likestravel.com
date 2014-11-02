@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+
+<div class="posts">
+	{{ range .Data.Pages }}
+		{{ .Render "summary" }}
+	{{ end }}
+</div>
+
+{{ partial "sidebar.html" . }}
+
+{{ partial "footer.html" . }}
+

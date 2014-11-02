@@ -1,0 +1,6 @@
+.sidebar {
+	
+	@media (min-width: 700px) {
+		@include span(4 last)
+	}
+}
